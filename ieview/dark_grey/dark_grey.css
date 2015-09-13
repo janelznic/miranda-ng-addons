@@ -1,0 +1,30 @@
+/*
+ * Dark Grey theme by Elza for IEView Miranda NG addon
+ * Version 1.0, 2015-09-13
+ * Author: Jan Elznic, https://janelznic.cz
+ * Released under MIT license
+*/
+
+* { padding:0; margin:0; }
+body { font-family:Arial; font-size:8px; margin:0; padding-left:0;
+	border:0; color:#FFF; background-color:#1A1A1A; }
+
+img, span							{ vertical-align:top; }
+td									{ font-size:11px; }
+td.bullet							{ padding:0 2px; }
+
+a, a:active, a:visited				{ color:YellowGreen; }
+a:hover								{ color:#AAFFCC; }
+
+.separator							{ border-bottom:1px solid #555; }
+
+.head								{  }
+
+.msg_in								{ background-color:#101010; }
+.msg_out							{ background-color:#1A1A1A; }
+
+.msg_out .time, .msg_out .date		{ color:#DABCA7; }
+.msg_out .name						{ color:#B57A57; }
+
+.msg_in .time, .msg_in .date		{ color:#999; }
+.msg_in .name						{ color:#999; }

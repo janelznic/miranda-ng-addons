@@ -1,0 +1,225 @@
+<!--
+  -- Dark Grey theme by Elza for IEView Miranda NG addon
+  -- Version 1.0, 2015-09-13
+  -- Author: Jan Elznic, https://janelznic.cz
+  -- Released under MIT license
+  -->
+
+<!--HTMLStart-->
+<html>
+
+<head>
+	<base href="%base%">
+	<link rel="stylesheet" type="text/css" href="dark-grey.css" />
+</head>
+
+<body>
+
+<!--MessageOut-->
+<table width="100%" class="msg_out head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_out.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_out" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+
+<!--MessageIn-->
+<table width="100%" class="msg_in head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_in.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_in" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+
+<!--Status-->
+<div>
+	<span class="status time">%time% </span><br>
+	<span class="status name">%name%</span><br>
+	<span class="status message">%text%</span>
+</div>
+
+<!--URL-->
+<div>
+	<span class="status name">%name%</span><br>
+	<span class="status time">%time%:</span><br>
+	<span class="status message">URL: %text%</span>
+</div>
+
+<!--File-->
+<div>
+	<span class="status name">%name%</span><br>
+	<span class="status time">%time%:</span><br>
+	<span class="status message">File: %text%</span>
+</div>
+
+<!--hMessageIn-->
+<table width="100%" class="msg_in head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_in.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_in" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+
+<!--hMessageOut-->
+<table width="100%" class="msg_out head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_out.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_out" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+
+<!--hStatus-->
+<div>
+	<span class="status history time">%date% at %time%</span><br>
+	<span class="status history name">%name%</span><br>
+	<span class="status history message">%text%</span>
+</div>
+
+<!--hURL-->
+<div>
+	<span class="status history name">%name%</span><br>
+	<span class="status history time">(%time%):</span><br>
+	<span class="status history message">URL: %text%</span>
+</div>
+
+<!--hFile-->
+<div>
+	<span class="status history name">%name%</span><br>
+	<span class="status history time">(%time%):</span><br>
+	<span class="status history message">File: %text%</span>
+</div>
+
+
+<!-- /////////////// MESSAGE GROUPING /////////////// -->
+
+<!--MessageOutGroupStart-->
+<table width="100%" class="msg_out head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_out.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_out" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--MessageOutGroupInner-->
+<table width="100%" class="msg_out" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--MessageOutGroupEnd-->
+<div class="separator"></div>
+
+<!--MessageInGroupStart-->
+<table width="100%" class="msg_in head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_in.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_in" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--MessageInGroupInner-->
+<table width="100%" class="msg_in" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--MessageInGroupEnd-->
+<div class="separator"></div>
+
+
+<!------------------------------------------------------>
+
+
+<!--hMessageOutGroupStart-->
+<table width="100%" class="msg_out head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_out.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_out" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--hMessageOutGroupInner-->
+<table width="100%" class="msg_out" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--hMessageOutGroupEnd-->
+<div class="separator"></div>
+
+<!--hMessageInGroupStart-->
+<table width="100%" class="msg_in head" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet" valign="top"><img src="msg_in.png" /></td>
+		<td xwidth="100%"><span class="name">%name%, </span><span class="date">%date%</span></td>
+	</tr>
+</table>
+<table width="100%" class="msg_in" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--hMessageInGroupInner-->
+<table width="100%" class="msg_in" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="16" class="bullet"></td>
+		<td width="50" valign="top"><span class="time">%time%: </span></td>
+		<td xwidth="100%">%text%</td>
+	</tr>
+</table>
+<!--hMessageInGroupEnd-->
+<div class="separator"></div>
